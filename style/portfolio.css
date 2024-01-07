@@ -168,15 +168,35 @@ main .section {
 .skill-description {
     color: #757575;
 }
+
 /* RESUME STYLES  */
 /* .resume-coloum-container{
     display: flex;
 } */
-.resume-coloum-container{
+.resume-coloum-container {
     display: flex;
+    gap: 50px;
+}
+.resume-coloum-container hr{
+    margin: 30px 0;
 }
 .resume-coloum-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resume-discription,.resume-items-institue {
+    color: #474747;
+}
+
+.resume-items-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 10px;
 }
