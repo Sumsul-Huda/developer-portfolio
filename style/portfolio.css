@@ -46,14 +46,48 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
-.header{
+
+.header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profil-pic{
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profil-pic {
     width: 500px;
+}
+
+.banner-gratting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner-discription {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
