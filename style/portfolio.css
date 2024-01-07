@@ -137,7 +137,14 @@ main {
 }
 
 .info-discription {
+    /* text-align: center; */
     color: #474747;
     font-size: 20px;
     font-weight: 700;
+}
+#what-i-discription{
+    padding: 10px 150px;
+}
+.skill-container{
+    display: flex;
 }
